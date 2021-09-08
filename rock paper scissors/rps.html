@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body>
+    <main class="main-page">
+      <div class="left-side">
+        <h1 id="top-title">Choose your weapon</h1>
+        <div class="images-contain">
+          <img class="img-items" src="images/paper.png" alt="Paper" />
+          <img class="img-items" src="images/rock.png" alt="Rock" />
+          <img class="img-items" src="images/scissors.png" alt="Scissors" />
+        </div>
+        <h4>cpu chose:</h4>
+        <img
+          class="img-cpu-choosed hidden"
+          src="images/paper.png"
+          alt="Paper"
+        />
+        <img class="img-cpu-choosed hidden" src="images/rock.png" alt="Rock" />
+        <img
+          class="img-cpu-choosed hidden"
+          src="images/scissors.png"
+          alt="Scissors"
+        />
+      </div>
+
+      <div class="right-side">
+        <h2>points</h2>
+        <h3>USER: <span id="user-score">0</span></h3>
+        <h3>CPU: <span id="cpu-score">0</span></h3>
+        <h5>
+          copyright © All rights reserved <br />
+          Design: Mohammad Mahdi Dehghan
+        </h5>
+      </div>
+
+      <div class="footer">
+        <button id="refresh-btn">Refresh</button>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="./rps.js"></script>
+  </body>
+</html>
